@@ -5,6 +5,7 @@ var DarkSky = require("dark-sky");
 var app = express();
 var DarkSky = "https://api.darksky.net/forecast/3211cb372b92b0d9c6fe595fcaa36a9d/";
 
+// view engine setup
 app.use(express.static(path.resolve(__dirname, "public")));
 app.set("views", path.resolve(__dirname, "views"));
 app.set("view engine", "ejs");
