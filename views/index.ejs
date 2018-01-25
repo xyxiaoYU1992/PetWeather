@@ -1,0 +1,45 @@
+<% include header %>
+<h1>Add A New Pet</h1>
+<form class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="name">PetName</label>
+            <input id="name" type="text" placeholder="PetName">
+            <span class="pure-form-message-inline">This is a required field.</span>
+        </div>
+
+        <div class="pure-control-group">
+            <label for="id">PetID</label>
+            <input id="id" type="text" placeholder="PetID">
+            <span class="pure-form-message-inline">This is a required field.</span>
+        </div>
+
+        <div class="pure-control-group">
+            <label for="type">PetType</label>
+            <input id="type" type="text" placeholder="PetType">
+            <span class="pure-form-message-inline">This is a required field.</span>
+        </div>
+
+        <div class="pure-control-group">
+            <label for="gender">PetGender</label>
+            <input id="gender" type="text" placeholder="PetGender">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="latitude">Latitude</label>
+            <input id="latitude" type="text" placeholder="-90~90">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="longitude">Longitude</label>
+            <input id="longitude" type="text" placeholder="-180~180">
+        </div>
+
+
+            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+        </div>
+    </fieldset>
+</form>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/main.js"></script>
+<% include footer %>
